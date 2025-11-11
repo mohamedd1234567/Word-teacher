@@ -1,0 +1,1 @@
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fstock-photo-teachers-word-representing-give-lessons-and-text-87682914.html&psig=AOvVaw1mTUbfV0ZvKZFwZ8NTkKsQ&ust=1762956981422000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMjn7vOk6pADFQAAAAAdAAAAABAb
