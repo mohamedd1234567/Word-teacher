@@ -1,1 +1,27 @@
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.alamy.com%2Fstock-photo-teachers-word-representing-give-lessons-and-text-87682914.html&psig=AOvVaw1mTUbfV0ZvKZFwZ8NTkKsQ&ust=1762956981422000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMjn7vOk6pADFQAAAAAdAAAAABAb
+words = {
+    "apple": "a round fruit that grows on trees",
+    "book": "a set of written or printed pages bound together",
+    "computer": "an electronic device for storing and processing data",
+    "teacher": "a person who helps others to learn",
+    "student": "a person who studies at a school or university"
+}
+
+print("=== Welcome to Word Teacher ===")
+
+score = 0
+total = len(words)
+
+# Main quiz loop
+for word, meaning in words.items():
+    print(f"\nWhat is the meaning of: {word}?")
+    answer = input("Your answer: ")
+
+    if answer.strip().lower() == meaning.lower():
+        print("Correct ✅")
+        score += 1
+    else:
+        print(f"Wrong ❌ The correct meaning is: {meaning}")
+
+print("\n=== Quiz Finished! ===")
+print(f"Your score: {score}/{total}")
+print("Good job learning new words!")
